@@ -1,4 +1,5 @@
 import { HERO_CONTENT } from "../constants"
+import profilePic from '../assets/image.png'
 export default function Hero() {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -10,7 +11,13 @@ export default function Hero() {
                         <p className="my-2 max-w-xl py-6 font-light ">{HERO_CONTENT}</p>
                     </div>
                 </div>
+                <div className="w-[150px] lg:w-1/6 lg:p-8">
+                    <div className="flex justify-center">
+                        <img src={profilePic} alt="Mesud Ahmed" />
+                    </div>
+                </div>
             </div>
+
         </div>
     )
 }
