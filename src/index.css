@@ -6,3 +6,7 @@
 :root{
   font-family: 'Inter',sans-serif;
 }
+body {
+  background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+  color: #d1d5db; /* neutral-300 */
+}
