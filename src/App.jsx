@@ -2,6 +2,8 @@ import './index.css'
 import NavBar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Technologies from './components/Technologies'
+import Projects from './components/Projects'
 function App() {
 
   return (
@@ -9,7 +11,8 @@ function App() {
       <NavBar />
       <Hero />
       <About />
-
+      <Technologies />
+      <Projects/>
     </div>
   )
 }
