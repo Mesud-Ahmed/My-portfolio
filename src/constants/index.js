@@ -1,7 +1,7 @@
-// import project1 from "../assets/projects/project-1.jpg";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/project-1.png";
+import project2 from "../assets/project-2.png";
+import project3 from "../assets/project-3.png";
+import project4 from "../assets/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,32 +40,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    //image: project1,
+    title: "Food Order website",
+    image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "a food ordering website with integrated local database for storing meals items and ordered meals",
+    technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Task Management App",
-    //image: project2,
+    title: "Project Management App",
+    image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for managing tasks and projects, with features such as  creation, deletion, and and viewing tasks and projects.",
+    technologies: ["HTML", "CSS", "React", "TailwindCSS"],
   },
   {
-    title: "Portfolio Website",
-    //image: project3,
+    title: "The Almost Final Countdown - Mini Web Game",
+    image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A fun and interactive web game where a player try to stop a timer as close as possible to a target time.",
+    technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Blogging Platform",
-    //image: project4,
+    title: "Pixabay Image Finder",
+    image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A simple website that allows users to search for images. Users can enter a search term, select the number of images to display, and view results in a responsive grid format.",
+    technologies: ["HTML", "CSS", "React", "Material UI", "Axios"],
   },
 ];
 
