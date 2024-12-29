@@ -3,9 +3,14 @@ import project2 from "../assets/project-2.png";
 import project3 from "../assets/project-3.png";
 import project4 from "../assets/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a motivated and eager junior React developer with a passion for building responsive and user-friendly web applications.Having gained experience through personal projects, coding bootcamps, and collaborative learning, I am proficient in React, JavaScript, and modern web technologies. 
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+I enjoy working in collaborative teams, tackling challenges, and delivering clean, efficient code. 
+
+`;
+
+export const ABOUT_TEXT = ` aspiring junior React developer with a passion for building efficient and user-friendly web applications. as a 4th year Software Engineering student, I aim to work on impactful projects that enhance user experiences and solve real-world problems.<br><br>
+Beyond coding, my hobbies and interests revolve around strengthening my religion, staying physically active through workouts, and cherishing quality time with my family. These aspects of my life shape my discipline, focus, and balance, which I bring into my work`;
 
 export const EXPERIENCES = [
   {
@@ -70,7 +75,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Addis Ababa, Ethiopis",
-  phoneNo: "+251941084897",
+  address: "Addis Ababa, Ethiopia",
+  phoneNo: "+251-941084897",
   email: "mesudahmed94@gmail.com",
 };
