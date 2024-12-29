@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants"
 import { motion } from "motion/react"
-import profilePic from '../assets/image.png'
+import profilePic from '../assets/my-image.png'
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
