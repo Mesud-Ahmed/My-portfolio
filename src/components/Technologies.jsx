@@ -1,6 +1,7 @@
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiRedux, SiGit } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiGit, SiNextdotjs, SiPostgresql } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
-import { motion } from "motion/react"
+import { motion } from "framer-motion";
+
 const iconVariants = (duration) => ({
     initial: { y: -10 },
     animate: {
@@ -12,8 +13,8 @@ const iconVariants = (duration) => ({
             repeatType: 'reverse',
         }
     }
+});
 
-})
 export default function Technologies() {
     return (
         <div className="border-b border-neutral-800 pb-24">
@@ -32,7 +33,6 @@ export default function Technologies() {
                     variants={iconVariants(2.5)}
                     initial='initial'
                     animate='animate'
-
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiHtml5 className="text-7xl text-orange-500" title="HTML5" />
                 </motion.div>
@@ -55,8 +55,7 @@ export default function Technologies() {
                     initial='initial'
                     animate='animate'
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiReact className=" text-cyan-400 text-7xl" title="React" />
-
+                    <SiReact className="text-cyan-400 text-7xl" title="React" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(4)}
@@ -68,12 +67,25 @@ export default function Technologies() {
                 <motion.div
                     variants={iconVariants(2)}
                     initial='initial'
-                    animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaGithub className=" text-7xl text-white" title="GitHub" />
+                    animate='animate'
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaGithub className="text-7xl text-white" title="GitHub" />
                 </motion.div>
-
-
+                <motion.div
+                    variants={iconVariants(3)}
+                    initial='initial'
+                    animate='animate'
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiNextdotjs className="text-7xl text-white" title="Next.js" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(4.5)}
+                    initial='initial'
+                    animate='animate'
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiPostgresql className="text-7xl text-blue-600" title="Postgreesql" />
+                </motion.div>
             </motion.div>
         </div>
-    )
+    );
 }

@@ -27,7 +27,7 @@ export default function Hero() {
                             initial='hidden'
                             animate='visible'
 
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to bg-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Junior React Developer</motion.span>
+                            className="bg-gradient-to-r from-pink-300 via-slate-500 to bg-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Next js Full-Stack Developer</motion.span>
                         <motion.p
                             variants={container(1)}
                             initial='hidden'
