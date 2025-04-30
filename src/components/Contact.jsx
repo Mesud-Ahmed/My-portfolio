@@ -19,7 +19,7 @@ export default function Contact() {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 1 }}
-                className="my-4"> <a href="tel:+1234567890" >{CONTACT.phoneNo}</a></motion.p>
+                className="my-4"> <a href="tel:+251941084897" >{CONTACT.phoneNo}</a></motion.p>
                 <a href="mailto:mesudahmed94@gmail.com" className="hover:underline ">{CONTACT.email}</a>
 
             </div>
