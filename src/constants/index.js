@@ -80,7 +80,7 @@ export const PROJECTS = [
       "A responsive website for an eye clinic featuring doctor profiles,client reviews and service information. Built with a user-friendly interface to enhance patient engagement and streamline online interactions.",
     technologies: ["TailwindCSS", "React", "Framer Motion"],
     livePreview: "https://eye-clinic-ecru.vercel.app/",
-    github:"https://github.com/Mesud-Ahmed/Eye-clinic"
+    github: "https://github.com/Mesud-Ahmed/Eye-clinic",
   },
   {
     title: "Anwar Cultural Tibs",
@@ -88,7 +88,7 @@ export const PROJECTS = [
     description:
       "A modern Responsive restaurant website showcasing menus, restaurant information, and more. ",
     technologies: ["TailwindCSS", "React", "Framer Motion"],
-    livePreview: "https://eye-clinic-ecru.vercel.app/",
+    livePreview: "https://restaurant-website-fawn-three.vercel.app/",
 
     github: "https://github.com/Mesud-Ahmed/Restaurant-website",
   },
@@ -98,7 +98,7 @@ export const PROJECTS = [
     description:
       "A fun and interactive web game where players try to stop a timer as close as possible to a target time.",
     technologies: ["TailwindCSS", "React"],
-    livePreview: "https://restaurant-website-fawn-three.vercel.app/",
+    livePreview: "https://the-almost-final-countdown-chi.vercel.app/",
     github: "https://github.com/Mesud-Ahmed/The-Almost-Final-Countdown",
   },
 ];
