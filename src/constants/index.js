@@ -50,7 +50,7 @@ export const PROJECTS = [
     title: "MediHelp+",
     image: project8,
     description:
-      `I played a key role in developing the front-end of MediHelp+, a healthcare platform that <a href="https://www.linkedin.com/posts/mesud-ahmed-thrilled-to-share-that-we-won-the-activity-7225483748502347776-5uP5?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" style="color: #1DA1F2; font-weight: bold; text-decoration: underline;">won the 2025 GDG AASTU hackathon</a>. I focused on implementing responsive UI components using React, integrating features like real-time AI skin diagnosis, an interactive symptom checker, and local language support.`,
+      `I played a key role in developing the front-end of MediHelp+, a healthcare platform that <a href="https://www.linkedin.com/posts/mesud-ahmed-756243285_hackathon-gdgaastu-reactjs-activity-7326571792783785984-SFhx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVExHIBdy8r2ML9HRGeEGrnvBUuJ5yZ-b0" target="_blank" rel="noopener noreferrer" style="color: #1DA1F2; font-weight: bold; text-decoration: underline;">won the 2025 GDG AASTU hackathon</a>. I focused on implementing responsive UI components using React, integrating features like real-time AI skin diagnosis, an interactive symptom checker, and local language support.`,
     technologies: ["Django", "React", "TailwindCSS", "Framer-motion"],
     livePreview: "https://medihelp-frontend-ntx5.vercel.app/",
     github: "https://github.com/ellay21/Medihelp-Frontend",
