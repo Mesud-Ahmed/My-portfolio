@@ -5,10 +5,11 @@ import project4 from "../assets/project-4.png";
 import project5 from "../assets/project-5.png";
 import project6 from "../assets/project-6.png";
 import project7 from "../assets/project-7.png";
+import project8 from "../assets/project-8.png";
 
-export const HERO_CONTENT = `I am a passionate  React and Next.js developer dedicated to crafting responsive, user-friendly web applications. Through hands-on personal projects, coding bootcamps, and collaborative learning, I have honed my skills in React, Next.js, JavaScript, and modern web technologies. `;
+export const HERO_CONTENT = `I am a passionate React and Next.js developer dedicated to crafting responsive, user-friendly web applications. Through hands-on personal projects, coding bootcamps, and collaborative learning, I have honed my skills in React, Next.js, JavaScript, and modern web technologies.`;
 
-export const ABOUT_TEXT = `As a Full-Stack developer and 4th-year Software Engineering student,  My goal is to contribute to meaningful projects that address real-world challenges. <br><br>Beyond coding, I find balance through strengthening my faith, staying active with workouts, and spending quality time with family. These pursuits enhance my discipline and focus, which I bring to my development work.`;
+export const ABOUT_TEXT = `As a Full-Stack developer and 4th-year Software Engineering student, My goal is to contribute to meaningful projects that address real-world challenges. <br><br>Beyond coding, I find balance through strengthening my faith, staying active with workouts, and spending quality time with family. These pursuits enhance my discipline and focus, which I bring to my development work.`;
 
 export const EXPERIENCES = [
   {
@@ -36,14 +37,23 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Abraham Car Marketplace",
+    title: "Freedom Car Marketplace",
     image: project5,
     description:
-      "a modern web application built with Next.js and Drizzle ORM, designed to provide a seamless platform for browsing, filtering, and managing car listings.",
+      "A modern web application built with Next.js and Drizzle ORM, designed to provide a seamless platform for browsing, filtering, and managing car listings.",
     technologies: ["Next.js", "TailwindCSS", "Drizzle", "Neon"],
     livePreview: "https://car-marketplace-eight-jet.vercel.app/",
     github:
       "https://github.com/Mesud-Ahmed/Car-marketplace/tree/main/next-js-car-marketplace",
+  },
+  {
+    title: "MediHelp+",
+    image: project8,
+    description:
+      `I played a key role in developing the front-end of MediHelp+, a healthcare platform that <a href="https://www.linkedin.com/posts/mesud-ahmed-thrilled-to-share-that-we-won-the-activity-7225483748502347776-5uP5?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" style="color: #1DA1F2; font-weight: bold; text-decoration: underline;">won the 2025 GDG AASTU hackathon</a>. I focused on implementing responsive UI components using React, integrating features like real-time AI skin diagnosis, an interactive symptom checker, and local language support.`,
+    technologies: ["Django", "React", "TailwindCSS", "Framer-motion"],
+    livePreview: "https://medihelp-frontend-ntx5.vercel.app/",
+    github: "https://github.com/ellay21/Medihelp-Frontend",
   },
   {
     title: "Food Order Website",
@@ -57,7 +67,7 @@ export const PROJECTS = [
     title: "Rebel Rover - Travel Booking Website",
     image: project4,
     description:
-      "Designed and developed as a capstone project by a team of seven students, The backend functionality is simulated using MockAPI.io.",
+      "Designed and developed as a capstone project by a team of seven students. The backend functionality is simulated using MockAPI.io.",
     technologies: ["React", "TailwindCSS", "MockAPI.io"],
     livePreview: "https://gdg-capstone-g1.netlify.app/",
     github: "https://github.com/anteneh83/G1_Capstone_Project",
@@ -72,12 +82,11 @@ export const PROJECTS = [
       "https://project-management-app-drab.vercel.app/?vercelToolbarCode=ijKgCzpQ_AM0uyP",
     github: "https://github.com/Mesud-Ahmed/Project-Management-app",
   },
-
   {
     title: "Daliya Specialized Eye Clinic",
     image: project6,
     description:
-      "A responsive website for an eye clinic featuring doctor profiles,client reviews and service information. Built with a user-friendly interface to enhance patient engagement and streamline online interactions.",
+      "A responsive website for an eye clinic featuring doctor profiles, client reviews, and service information. Built with a user-friendly interface to enhance patient engagement and streamline online interactions.",
     technologies: ["TailwindCSS", "React", "Framer Motion"],
     livePreview: "https://eye-clinic-ecru.vercel.app/",
     github: "https://github.com/Mesud-Ahmed/Eye-clinic",
@@ -86,10 +95,9 @@ export const PROJECTS = [
     title: "Anwar Cultural Tibs",
     image: project7,
     description:
-      "A modern Responsive restaurant website showcasing menus, restaurant information, and more. ",
+      "A modern responsive restaurant website showcasing menus, restaurant information, and more.",
     technologies: ["TailwindCSS", "React", "Framer Motion"],
     livePreview: "https://restaurant-website-fawn-three.vercel.app/",
-
     github: "https://github.com/Mesud-Ahmed/Restaurant-website",
   },
   {
